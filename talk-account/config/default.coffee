@@ -12,7 +12,7 @@ module.exports =
   useAnalytics: no
   # URL
   accountUrl: 'http://localhost:7001/account'
-  siteUrl: 'http://localhost:7001'
+  siteUrl: 'http://115.28.192.208:7001'
   weiboLogin: "http://localhost:7001/account/union/weibo?method=bind&next_url=#{encodeURIComponent 'http://localhost:7001/v2/weibo/landing'}",
   firimLogin: "http://localhost:7001/account/union/firim?method=bind&next_url=#{encodeURIComponent 'http://localhost:7001/v2/firim/landing'}",
   githubLogin: "http://localhost:7001/account/union/github?method=bind&service=talk&nologin=1&next_url=#{encodeURIComponent 'http://localhost:7001/v2/github/landing'}",

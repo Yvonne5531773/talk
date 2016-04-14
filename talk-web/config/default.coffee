@@ -6,7 +6,7 @@ module.exports =
   isGuest: isGuest
   version: require('../package.json').version
   apiHost: if isGuest then '/api' else '/v2'
-  sockHost: 'http://localhost:7001/snapper',
+  sockHost: 'http://115.28.192.208:7001/snapper',
   inteUrl: 'http://account.project.ci',
   accountUrl: 'http://localhost:7001/account',
   domainUrl: 'http://localhost:8081',

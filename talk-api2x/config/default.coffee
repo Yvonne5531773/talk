@@ -18,7 +18,7 @@ module.exports = config =
     clientId: 'Client id of snapper'
     clientSecret: 'Client secret of snapper'
     channelPrefix: 'snapper'
-    host: 'localhost:7001/snapper'  # For test
+    host: '115.28.192.208:7001/snapper'  # For test
   talkAccountApiUrl: 'http://localhost:7001/account'
   talkAccountPageUrl: 'http://localhost:7001/page'
   cdnPrefix: 'https://dn-talk.oss.aliyuncs.com'
