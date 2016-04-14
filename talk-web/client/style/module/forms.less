@@ -1,0 +1,24 @@
+
+// custom colors
+.form-control {
+  color: @font-level-2;
+}
+
+input.form-control {
+  line-height: 22px;
+}
+
+textarea, input {
+  // Firefox
+  &::-moz-placeholder {
+    color: #a6a6a6;
+    opacity: 1; // Override Firefox's unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526
+  }
+  &:-ms-input-placeholder { color: #a6a6a6; } // Internet Explorer 10+
+  &::-webkit-input-placeholder  { color: #a6a6a6; } // Safari and Chrome
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+textarea.form-control {
+  resize: vertical;
+}

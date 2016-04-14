@@ -1,0 +1,4 @@
+{
+  "githubHost": "https://github.com/",
+  "plugins": ["-mathjax"]
+}

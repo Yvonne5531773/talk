@@ -1,0 +1,43 @@
+
+.topic-name {
+  position: relative;
+  cursor: pointer;
+  line-height: 24px;
+
+  .is-leading {
+    font-size: 14px;
+  }
+
+  &.hover {
+    background-color: @color-background-gray;
+  }
+
+  .ti-eye {
+    color: #fff;
+  }
+
+  .states {
+    display: inline-block;
+  }
+
+  .name {
+    flex: 1 1 auto;
+  }
+
+  .icon-unread {
+    flex: 0 0 auto;
+  }
+
+  .ti-tick {
+    color: @color-red;
+  }
+}
+
+.topic-name.is-active .ti-eye {
+  color: white;
+}
+
+.topic-name .hint {
+  font-size: 12px;
+  color: @font-level-3;
+}

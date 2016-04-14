@@ -1,0 +1,45 @@
+.setting-rookie {
+
+  .data-avatar {
+    position: relative;
+
+    height: 80px;
+    width: 80px;
+
+    background-image: url('../../images/avatar-nobody@2x.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 100%;
+
+    cursor: pointer;
+
+    .ti {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      text-align: center;
+
+      line-height: 80px;
+
+      border-radius: 50%;
+
+      color: #FFF;
+
+      font-size: 36px;
+      opacity: 0;
+      transition: opacity @transition-duration;
+      background-color: rgba(57, 60, 65, .7)
+    }
+
+    &:hover .ti {
+      opacity: .7;
+    }
+  }
+
+  > .content .data-name {
+    margin-top: 30px;
+  }
+}
