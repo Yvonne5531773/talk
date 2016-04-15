@@ -32,18 +32,18 @@ module.exports = (assets, config) ->
   stir.render stir.doctype(),
     html null,
       head null,
-        title null, '简聊'
+        title null, 'Quick Talk'
         meta charset: 'utf-8'
         meta 'http-equiv': 'X-UA-Compatible', content: 'IE=edge, chrome=1'
         meta name: 'referrer', content: 'origin-when-cross-origin'
         meta name: 'superfish', content: 'nofish'
-        meta name: 'author', content: '简聊'
+        meta name: 'author', content: 'Quick Talk'
         meta name: 'description', content: '简聊是一个团队协作即时通讯工具, 拥有多种消息文本类型, 话题, 内容分享, 搜索, 文件整理以及一系列精彩的功能. 我们希望你的团队能通过简聊变得更有效率'
         meta name: 'keywords', content: '分享, 工作, 沟通, 话题, 即使通讯, 团队协作, 效率'
         meta name: 'apple-itunes-app', content: 'app-id=922425179'
         meta property: 'og:description', content: '简聊是一个团队协作即时通讯工具, 拥有多种消息文本类型, 话题, 内容分享, 搜索, 文件整理以及一系列精彩的功能. 我们希望你的团队能通过简聊变得更有效率'
         meta property: 'og:image', content: 'https://dn-talk.oss.aliyuncs.com/icons/preview.png'
-        meta property: 'og:site_name', content: '简聊'
+        meta property: 'og:site_name', content: 'Quick Talk'
         meta property: 'og:title', content: '简聊 | 谈工作，用简聊'
         meta property: 'og:type', content: 'website'
         meta property: 'og:url', content: 'https://jianliao.com'
