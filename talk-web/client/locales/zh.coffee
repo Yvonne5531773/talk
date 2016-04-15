@@ -267,7 +267,7 @@ module.exports =
   "room-disabled": "话题访客模式已被关闭"
   "room-general": "公告板"
   "room-main-beginning": "这是一个默认所有团队成员都加入的话题，这里可以发布团队的公告。"
-  "room-main-contact": "hi，这是简聊为您私人定制的安全空间，私聊信息只有你们两人可见哦。"
+  "room-main-contact": "hi，这是为您私人定制的安全空间，私聊信息只有你们两人可见哦。"
   "room-main-created": "这个话题是由{{name}}于{{time}}创建。"
   "room-main-created2": "这个话题是由{{name}}于{{time}}创建，它的目标是: “{{purpose}}”。"
   "room-main-desc": "开始聊天吧.."
