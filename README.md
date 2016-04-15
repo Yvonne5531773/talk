@@ -31,8 +31,8 @@
 
 ## MongoDB
 
-## Redis
- 作为缓存和消息通讯中间件
+## Redis 作为缓存和消息通讯中间件
+
 
 
 ## LICENSE
