@@ -710,7 +710,7 @@ module.exports =
   "info-leave-story": "离开了"
   "info-new-speech": "发来一段语音"
   "info-invite-you": "邀请你加入"
-  "launch-jianliao": "开始简聊"
+  "launch-jianliao": "Go Talking"
   "create-a-story": "发布一个分享"
   "find-a-channel": "找到你需要的频道"
   "all-channels": "全部"
